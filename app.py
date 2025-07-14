@@ -56,7 +56,7 @@ body {
     background-color: #3498db;
 }
 </style>
-""", unsafe_allow_html=True)
+<div>""", unsafe_allow_html=True)
 
 # Logo + kotak login
 st.markdown("""
