@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 # Konfigurasi halaman
@@ -61,7 +60,7 @@ body {
 # Logo + kotak login
 st.markdown("""
 <div class="login-box">
-    <img src="logo-m8s.png" width="80" style="margin-bottom: 20px;"/>
+    <img src="https://raw.githubusercontent.com/m8super/m8s_v1/main/logo-m8s.png" width="80" style="margin-bottom: 20px;"/>
     <h2>Login ke M8SUPER</h2>
 </div>
 """, unsafe_allow_html=True)
