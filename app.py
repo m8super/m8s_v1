@@ -84,20 +84,19 @@ st.markdown("""
 
 # ---------- Sesi Login ----------
 if "login_user" not in st.session_state:
-    st.session_state.login_user = None
+    st.session_state["login_user"] = None
 
-# ---------- Sistem Login & Daftar ----------
-if st.session_state.login_user:
+if st.session_state["login_user"]:
     # DASHBOARD
     st.markdown(f"""
     <div class="login-box">
-        <h2>Selamat datang, <span style='color:#2980b9'>{st.session_state.login_user}</span>!</h2>
+        <h2>Selamat datang, <span style='color:#2980b9'>{st.session_state['login_user']}</span>!</h2>
         <p>Ini adalah dashboard utama M8SUPER.</p>
     </div>
     """, unsafe_allow_html=True)
 
     if st.button("Log Keluar"):
-        st.session_state.login_user = None
+        st.session_state["login_user"] = None
         st.experimental_rerun()
 
 else:
@@ -108,7 +107,7 @@ else:
         password = st.text_input("🔑 Kata Laluan", type="password")
         if st.button("Log Masuk"):
             if username in users and users[username] == password:
-                st.session_state.login_user = username
+                st.session_state["login_user"] = username
                 st.experimental_rerun()
             else:
                 st.error("Nama pengguna atau kata laluan salah.")
