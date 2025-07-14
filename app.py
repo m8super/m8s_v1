@@ -61,7 +61,7 @@ body {
 # Logo + kotak login
 st.markdown("""
 <div class="login-box">
-    <img src="https://i.imgur.com/0PpRHNV.png" width="80" style="margin-bottom: 20px;"/>
+    <img src="logo-m8s.png" width="80" style="margin-bottom: 20px;"/>
     <h2>Login ke M8SUPER</h2>
 </div>
 """, unsafe_allow_html=True)
