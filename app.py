@@ -62,7 +62,7 @@ body {
 st.markdown("""
 <div style="text-align: center; margin-bottom: -20px;">
     <img src="https://raw.githubusercontent.com/m8super/m8s_v1/main/logo-m8s.png" width="80" 
-         style="border-radius: 50%; background: white; padding: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);"/>
+         style="border-radius: 50%; background: transparent; padding: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);"/>
 </div>
 <div class="login-box">
     <h2>Welcome To M8SUPER</h2>
