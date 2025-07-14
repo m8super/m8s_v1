@@ -65,7 +65,7 @@ st.markdown("""
          style="border-radius: 50%; background: white; padding: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);"/>
 </div>
 <div class="login-box">
-    <h2>Login ke M8SUPER</h2>
+    <h2>Welcome To M8SUPER</h2>
 """, unsafe_allow_html=True)
 
 # Input dan butang
