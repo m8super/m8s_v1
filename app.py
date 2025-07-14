@@ -60,16 +60,13 @@ body {
 
 # Logo + kotak login
 st.markdown("""
-<div style="text-align: center; margin-bottom: -20px;">
-    <img src="https://raw.githubusercontent.com/m8super/m8s_v1/main/logo-m8s.png" width="80" 
-         style="border-radius: 50%; background: white; padding: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);"/>
-</div>
 <div class="login-box">
+    <img src="logo-m8s.png" width="80" style="margin-bottom: 20px;"/>
     <h2>Login ke M8SUPER</h2>
+</div>
 """, unsafe_allow_html=True)
 
 # Input dan butang
 username = st.text_input("👤 Nama Pengguna")
 password = st.text_input("🔑 Kata Laluan", type="password")
 st.button("Log Masuk")
-
